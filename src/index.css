@@ -15,6 +15,10 @@
     --borda-btn: 1px solid rgba(37, 37, 37, 0.30);
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 html,
 body,
 div,

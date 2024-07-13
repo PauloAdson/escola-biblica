@@ -19,3 +19,17 @@ main.bg-main::before {
     background-size: cover;
     z-index: -1;
 }
+
+main section.main-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main section.main-inicio h1 {
+    font-size: 48px;
+    color: var(--cor-secundaria);
+    
+}

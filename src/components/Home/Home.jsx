@@ -7,11 +7,11 @@ export class Home extends React.Component {
         return (
             <>
                 <main className="bg-main">
-                    <section>
-                        <h1>Venha aprender mais<br />
+                    <section className="main-inicio">
+                        <h1 className="uppercase">Venha aprender mais<br />
                             sobre a Bíblia
                         </h1>
-                        <p>Através de lições Bíblicas</p>
+                        <p className="uppercase">Através de lições Bíblicas</p>
                         <Botton estilo="btn-destaque cadastro" link="./" texto="Começar Agora" />
                     </section>
                 </main>
