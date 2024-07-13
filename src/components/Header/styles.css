@@ -15,7 +15,7 @@ header nav.menu {
 
 nav.menu div.menu-links {
     width: 34.4rem;
-    gap: 3rem;
+    gap: 6rem;
     display: flex;
     align-items: center;
 }
