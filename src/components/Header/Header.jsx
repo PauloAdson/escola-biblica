@@ -1,7 +1,7 @@
 import React from "react";
 import './styles.css'
 import logo from '../../assets/images/logo.svg';
-import { Botton } from "../Botton/Botton";
+import { Button } from "../Button/Button";
 
 export class Header extends React.Component {
     render() {
@@ -11,8 +11,8 @@ export class Header extends React.Component {
                     <img src={logo} alt="Logo EBD" />
 
                     <div className="menu-links">
-                        <Botton estilo="btn-header login" link="./" texto="Entrar" />
-                        <Botton estilo="btn-header cadastro" link="./" texto="Cadastrar-se" />
+                        <Button estilo="btn-header login" link="./" texto="Entrar" />
+                        <Button estilo="btn-header cadastro" link="./" texto="Cadastrar-se" />
                     </div>
 
                 </nav>
