@@ -6,7 +6,7 @@ export class Home extends React.Component {
     render() {
         return (
             <>
-                <main>
+                <main className="bg-main">
                     <section>
                         <h1>Venha aprender mais<br />
                             sobre a Bíblia
