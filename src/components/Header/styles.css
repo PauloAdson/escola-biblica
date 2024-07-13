@@ -12,3 +12,10 @@ header nav.menu {
     height: 100%;
     margin: 0 auto;
 }
+
+nav.menu div.menu-links {
+    width: 34.4rem;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+}

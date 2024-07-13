@@ -1,0 +1,29 @@
+    a.btn-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+
+        width: 14.2rem;
+        height: 4rem;
+        border-radius: 48px;
+        border: 1px solid rgba(37, 37, 37, 0.30);
+    }
+
+    a.btn-header.login {
+        background-color: var(--cor-secundaria);
+        color: var(--cor-primaria);
+    }
+
+    a.btn-header.login:hover {
+        background-color: var(--cor-secundaria-acao);
+    }
+
+    a.btn-header.cadastro {
+        background-color: var(--bg-claro);
+        color: var(--cor-secundaria);
+    }
+
+    a.btn-header.cadastro:hover {
+        background-color: var(--bg-claro-acao);
+    }
