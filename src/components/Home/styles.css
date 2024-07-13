@@ -4,6 +4,7 @@ main.bg-main {
     align-items: center;
     justify-content: center;
     height: 86vh;
+    margin-bottom: 6.4rem;
 }
 
 main.bg-main::before {
@@ -14,6 +15,7 @@ main.bg-main::before {
     top: 0;
     left: 0;
     background-image: url(https://raw.githubusercontent.com/PauloAdson/escola-biblica/main/src/assets/images/backgroun-principal.png);
+    /* background-image: url(../../assets/images/backgroun-principal.png); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -30,6 +32,12 @@ main section.main-inicio {
 
 main section.main-inicio h1 {
     font-size: 48px;
+    line-height: 58px;
     color: var(--cor-secundaria);
-    
+}
+
+main section.main-inicio p {
+    color: var(--cor-secundaria);
+    font-size: 1.6rem;
+    margin: 12px 0px 20px 0;
 }
