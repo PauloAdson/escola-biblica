@@ -126,6 +126,7 @@ section {
 body {
     line-height: 1;
     font-family: var(--font);
+    color: var(--cor-primaria);
 }
 
 ol,
