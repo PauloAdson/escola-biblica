@@ -2,7 +2,7 @@
 
 :root {
     --font: 'Inria Sans', sans-serif;
-    font-size: 62.5%;
+    font-size: 62.5%; /*1rem vale 10px*/
     --cor-primaria: #252525;
     --cor-primaria-claro: #3E3E3E;
     --cor-secundaria: #FFFFFF;
