@@ -12,6 +12,7 @@
     --bg-escuro-acao: #197a97;
     --bg-claro: #4CC2E6;
     --bg-claro-acao: #2293b6;
+    --borda-btn: 1px solid rgba(37, 37, 37, 0.30);
 }
 
 html,
