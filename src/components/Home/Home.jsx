@@ -6,7 +6,10 @@ export class Home extends React.Component {
         return (
             <>
                 <main>
-                    <section></section>
+                    <section>
+                        <h1>Venha aprender mais<br />
+                            sobre a Bíblia</h1>
+                    </section>
                 </main>
             </>
         );
