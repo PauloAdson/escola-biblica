@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 :root {
+    --font: 'Inria Sans', sans-serif;
     font-size: 62.5%;
     --cor-primaria: #252525;
     --cor-primaria-claro: #3E3E3E;
@@ -11,8 +12,6 @@
     --bg-escuro-acao: #197a97;
     --bg-claro: #4CC2E6;
     --bg-claro-acao: #2293b6;
-
-    --font: 'Inria Sans', sans-serif;
 }
 
 html,
