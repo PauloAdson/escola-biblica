@@ -16,6 +16,7 @@ export class Home extends React.Component {
                         <Button estilo="btn-destaque cadastro" link="./" texto="Começar Agora" />
                     </section>
                 </main>
+
                 <section className="visao-geral-curso">
                     <h2 className="section-titulo">Descubra a Profundidade das Escrituras</h2>
                     <div className="visao-geral-curso__conteudo">
@@ -25,7 +26,8 @@ export class Home extends React.Component {
                         <img className="visao-geral-curso__conteudo-img" src="https://raw.githubusercontent.com/PauloAdson/escola-biblica/main/src/assets/images/imagem-bliblia.png" alt="imagem de uma bíblia" />
                     </div>
                 </section>
-                <section className="duvidas">
+
+                <section id="duvidas" className="duvidas">
                     <h2 className="section-titulo">Por Que Estudar a Bíblia?</h2>
                     <div>
                         <Sanfona tituloNumeroSanfona="01" tituloSanfona="Crescimento Espiritual" duvidasResposta="Aprofundar-se nas Escrituras fortalece sua fé e relacionamento com Deus." />
