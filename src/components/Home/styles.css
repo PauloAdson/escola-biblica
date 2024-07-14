@@ -77,6 +77,7 @@ section.visao-geral-curso div.visao-geral-curso__conteudo img.visao-geral-curso_
     border-radius: 50%;
 }
 
+/* section duvidas */
 section.duvidas {
     max-width: 840px;
     margin: 0 auto 6.4rem auto;
@@ -124,4 +125,8 @@ div.container-duvidas__sanfona div.container-conteudo p.conteudo.active {
     padding: 28px 0px 50px 58px;
     color: var(--cor-primaria-claro);
     font-size: 1.6rem;
+}
+
+section.duvidas a.btn-destaque {
+    margin: 10px auto 0 auto;
 }

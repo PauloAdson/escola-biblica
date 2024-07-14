@@ -27,9 +27,13 @@ export class Home extends React.Component {
                 </section>
                 <section className="duvidas">
                     <h2 className="section-titulo">Por Que Estudar a Bíblia?</h2>
-                    <Sanfona tituloNumeroSanfona="01" tituloSanfona="Crescimento Espiritual" duvidasResposta="Aprofundar-se nas Escrituras fortalece sua fé e relacionamento com Deus." />
-                    <Sanfona tituloNumeroSanfona="02" tituloSanfona="Conhecimento" duvidasResposta="Entender o contexto histórico e cultural da Bíblia proporciona uma visão mais clara das suas mensagens." />
-                    <Sanfona tituloNumeroSanfona="03" tituloSanfona="Aplicação Prática" duvidasResposta=" Aprenda a aplicar os ensinamentos bíblicos em sua vida cotidiana, transformando seu comportamento e atitudes." />
+                    <div>
+
+                        <Sanfona tituloNumeroSanfona="01" tituloSanfona="Crescimento Espiritual" duvidasResposta="Aprofundar-se nas Escrituras fortalece sua fé e relacionamento com Deus." />
+                        <Sanfona tituloNumeroSanfona="02" tituloSanfona="Conhecimento" duvidasResposta="Entender o contexto histórico e cultural da Bíblia proporciona uma visão mais clara das suas mensagens." />
+                        <Sanfona tituloNumeroSanfona="03" tituloSanfona="Aplicação Prática" duvidasResposta=" Aprenda a aplicar os ensinamentos bíblicos em sua vida cotidiana, transformando seu comportamento e atitudes." />
+                    </div>
+                    <Button estilo="btn-destaque cadastro" link="./" texto="Começar Agora" />
                 </section>
 
             </>
