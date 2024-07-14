@@ -17,7 +17,7 @@ export class Home extends React.Component {
                     </section>
                 </main>
                 <section className="visao-geral-curso">
-                    <h2>Descubra a Profundidade das Escrituras</h2>
+                    <h2 className="section-titulo">Descubra a Profundidade das Escrituras</h2>
                     <div className="visao-geral-curso__conteudo">
                         <p className="visao-geral-curso__conteudo-paragrafo">
                             Nosso curso de estudo bíblico foi desenvolvido para todos aqueles que desejam aprofundar seu conhecimento e entendimento da Bíblia Sagrada. Seja você um iniciante ou alguém que já possui um conhecimento sólido das Escrituras, nosso curso  oferece um ambiente enriquecedor para explorar a Palavra de Deus de maneira profunda e significativa.
@@ -26,9 +26,8 @@ export class Home extends React.Component {
                     </div>
                 </section>
                 <section className="duvidas">
-                    <h2>Por Que Estudar a Bíblia?</h2>
+                    <h2 className="section-titulo">Por Que Estudar a Bíblia?</h2>
                     <Sanfona tituloNumeroSanfona="01" tituloSanfona="Crescimento Espiritual" duvidasResposta="Aprofundar-se nas Escrituras fortalece sua fé e relacionamento com Deus." />
-
                 </section>
             </>
         );

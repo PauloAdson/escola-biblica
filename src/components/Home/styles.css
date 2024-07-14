@@ -36,6 +36,13 @@ main section.main-inicio h1 {
     color: var(--cor-secundaria);
 }
 
+h2.section-titulo {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 6.4rem;
+}
+
 main section.main-inicio p {
     color: var(--cor-secundaria);
     font-size: 1.6rem;
@@ -49,15 +56,8 @@ section.visao-geral-curso {
 
 section.visao-geral-curso div.visao-geral-curso__conteudo {
     gap: 64px;
-
 }
 
-section.visao-geral-curso h2 {
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 6.4rem;
-}
 
 section.visao-geral-curso div.visao-geral-curso__conteudo {
     display: flex;
@@ -75,4 +75,35 @@ section.visao-geral-curso div.visao-geral-curso__conteudo img.visao-geral-curso_
     width: 45.1rem;
     height: 45.1rem;
     border-radius: 50%;
+}
+
+section.duvidas {
+    max-width: 84rem;
+    margin: 0 auto;
+}
+
+section.duvidas div.duvidas__sanfona {
+cursor: pointer;
+}
+
+section.duvidas div.duvidas__sanfona div.duvidas__sanfona-titulo {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+section.duvidas div.duvidas__sanfona div.duvidas__sanfona-titulo h3 {
+    color: var(--cor-primaria-claro);
+}
+
+span.duvidas__sanfona-titulo-numero {
+    color: var(--cor-terciaria);
+    font-size: 3.2rem;
+}
+
+section.duvidas div.duvidas__sanfona p.conteudo {
+    margin: 28px;
+    font-size: 16px;
+    color: var(--cor-primaria-claro);
 }

@@ -19,9 +19,13 @@ export class Sanfona extends React.Component {
         return (
             <>
                 <div onClick={this.toggleClass} className={active ? 'duvidas__sanfona active' : 'duvidas__sanfona'}>
-                    <h3><span>{this.props.tituloNumeroSanfona}</span>{this.props.tituloSanfona}</h3>
-                    <img className="" src={active ? minusIcon : plusIcon} alt="" />
-                    <p>{this.props.duvidasResposta}</p>
+                    <div className="duvidas__sanfona-titulo">
+                        <h3><span className="duvidas__sanfona-titulo-numero">{this.props.tituloNumeroSanfona}</span>{this.props.tituloSanfona}</h3>
+                        <img className="" src={active ? minusIcon : plusIcon} alt="" />
+                    </div>
+                    <div className="">
+                        <p className={active ? 'conteudo conteudo-active' : 'conteudo'}>{this.props.duvidasResposta}</p>
+                    </div>
                 </div>
             </>
         );
