@@ -18,10 +18,10 @@ export class Home extends React.Component {
                 <section className="visao-geral-curso">
                     <h2>Descubra a Profundidade das Escrituras</h2>
                     <div className="visao-geral-curso__conteudo">
-                        <p>
+                        <p className="visao-geral-curso__conteudo-paragrafo">
                             Nosso curso de estudo bíblico foi desenvolvido para todos aqueles que desejam aprofundar seu conhecimento e entendimento da Bíblia Sagrada. Seja você um iniciante ou alguém que já possui um conhecimento sólido das Escrituras, nosso curso  oferece um ambiente enriquecedor para explorar a Palavra de Deus de maneira profunda e significativa.
                         </p>
-                        <img src="./algo" alt="imagem" />
+                        <img className="visao-geral-curso__conteudo-img" src="https://raw.githubusercontent.com/PauloAdson/escola-biblica/main/src/assets/images/imagem-bliblia.png" alt="imagem de uma bíblia" />
                     </div>
                 </section>
             </>
