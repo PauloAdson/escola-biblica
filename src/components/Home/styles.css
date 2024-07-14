@@ -78,32 +78,50 @@ section.visao-geral-curso div.visao-geral-curso__conteudo img.visao-geral-curso_
 }
 
 section.duvidas {
-    max-width: 84rem;
-    margin: 0 auto;
+    max-width: 840px;
+    margin: 0 auto 6.4rem auto;
 }
 
-section.duvidas div.duvidas__sanfona {
-cursor: pointer;
+section.duvidas div.container-duvidas__sanfona {
+    cursor: pointer;
+    margin-bottom: 5rem;
 }
 
-section.duvidas div.duvidas__sanfona div.duvidas__sanfona-titulo {
-    background-color: aquamarine;
+section.duvidas div.container-duvidas__sanfona.active {
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+section.duvidas div.container-duvidas__sanfona div.duvidas__sanfona {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
-section.duvidas div.duvidas__sanfona div.duvidas__sanfona-titulo h3 {
-    color: var(--cor-primaria-claro);
-}
-
-span.duvidas__sanfona-titulo-numero {
+div.duvidas__sanfona-titulo span.duvidas__sanfona-numero {
     color: var(--cor-terciaria);
     font-size: 3.2rem;
+    font-weight: 700;
+    margin-right: 2rem;
 }
 
-section.duvidas div.duvidas__sanfona p.conteudo {
-    margin: 28px;
-    font-size: 16px;
+div.duvidas__sanfona div.duvidas__sanfona-titulo {
+    display: flex;
+    align-items: center;
+}
+
+div.duvidas__sanfona-titulo h3 {
     color: var(--cor-primaria-claro);
+    font-size: 2.4rem;
+}
+
+div.container-duvidas__sanfona div.container-conteudo p.conteudo {
+    display: none;
+}
+
+div.container-duvidas__sanfona div.container-conteudo p.conteudo.active {
+    display: block;
+    padding: 28px 0px 50px 58px;
+    color: var(--cor-primaria-claro);
+    font-size: 1.6rem;
 }
