@@ -1,6 +1,7 @@
 import React from "react";
 import './styles.css';
 import { Button } from "../Button/Button";
+import { Sanfona } from "./Sanfona";
 
 export class Home extends React.Component {
     render() {
@@ -23,6 +24,11 @@ export class Home extends React.Component {
                         </p>
                         <img className="visao-geral-curso__conteudo-img" src="https://raw.githubusercontent.com/PauloAdson/escola-biblica/main/src/assets/images/imagem-bliblia.png" alt="imagem de uma bíblia" />
                     </div>
+                </section>
+                <section className="duvidas">
+                    <h2>Por Que Estudar a Bíblia?</h2>
+                    <Sanfona tituloNumeroSanfona="01" tituloSanfona="Crescimento Espiritual" duvidasResposta="Aprofundar-se nas Escrituras fortalece sua fé e relacionamento com Deus." />
+
                 </section>
             </>
         );
