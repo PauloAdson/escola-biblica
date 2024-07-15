@@ -55,14 +55,11 @@ section.visao-geral-curso {
     margin: 0 auto 6.4rem auto;
 }
 
-section.visao-geral-curso div.visao-geral-curso__conteudo {
-    gap: 64px;
-}
-
-
-section.visao-geral-curso div.visao-geral-curso__conteudo {
+div.visao-geral-curso__conteudo {
     display: flex;
     align-items: center;
+    gap: 64px;
+    margin-bottom: 64px;
 }
 
 section.visao-geral-curso div.visao-geral-curso__conteudo p.visao-geral-curso__conteudo-paragrafo {

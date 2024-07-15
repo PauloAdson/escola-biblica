@@ -25,6 +25,7 @@ export class Home extends React.Component {
                         </p>
                         <img className="visao-geral-curso__conteudo-img" src="https://raw.githubusercontent.com/PauloAdson/escola-biblica/main/src/assets/images/imagem-bliblia.png" alt="imagem de uma bíblia" />
                     </div>
+                    <Button estilo="btn-destaque cadastro" link="./" texto="Começar Agora" />
                 </section>
 
                 <section id="duvidas" className="duvidas">
@@ -34,7 +35,6 @@ export class Home extends React.Component {
                         <Sanfona tituloNumeroSanfona="02" tituloSanfona="Conhecimento" duvidasResposta="Entender o contexto histórico e cultural da Bíblia proporciona uma visão mais clara das suas mensagens." />
                         <Sanfona tituloNumeroSanfona="03" tituloSanfona="Aplicação Prática" duvidasResposta=" Aprenda a aplicar os ensinamentos bíblicos em sua vida cotidiana, transformando seu comportamento e atitudes." />
                     </div>
-                    <Button estilo="btn-destaque cadastro" link="./" texto="Começar Agora" />
                 </section>
 
             </>
