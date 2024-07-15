@@ -7,15 +7,17 @@ footer {
 }
 
 footer div.footer__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     max-width: 1042px;
     margin: 0 auto;
     color: var(--cor-secundaria);
 }
 
 div.footer__content-height {
-    height: 83px;
+
+    width: 30%;
     justify-content: space-between;
 }
 
@@ -64,4 +66,15 @@ div.footer__copyright a {
 
 div.footer__copyright a:hover {
     opacity: 0.9;
+}
+
+@media screen and (max-width: 767px) {
+    div.footer__links-rapidos {
+        display: none;
+    }
+
+    footer div.footer__content {
+        display: flex;
+        justify-content: space-around;        
+    }
 }

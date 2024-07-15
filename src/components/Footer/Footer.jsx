@@ -13,7 +13,7 @@ export class Footer extends React.Component {
                             <p>Os céus e a terra passarão, mas as minhas palavras jamais passarão.</p>
                         </div>
 
-                        <div className="footer__content-links footer__content-height">
+                        <div className="footer__content-links footer__links-rapidos footer__content-height">
                             <h4>Links Rápidos</h4>
 
                             <p><a href="">Voltar ao topo</a></p>
