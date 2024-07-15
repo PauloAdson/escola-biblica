@@ -23,8 +23,8 @@ export class Footer extends React.Component {
                         <div className="footer__content-links footer__content-height">
                             <h4>Contatos</h4>
 
-                            <p>WhatsApp: <a href="https://wa.me/5562995132226" target="_blank">(62)99513-2226</a></p>
-                            <p>E-mail: <a href="mailto:paulo.alves200581@gmail.com">paulo.alves200581@gmail.com</a></p>
+                            <p><a href="https://wa.me/5562995132226" target="_blank">WhatsApp</a></p>
+                            <p><a href="mailto:paulo.alves200581@gmail.com">E-mail</a></p>
                         </div>
                     </div>
 

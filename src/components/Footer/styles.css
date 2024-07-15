@@ -69,12 +69,22 @@ div.footer__copyright a:hover {
 }
 
 @media screen and (max-width: 767px) {
-    div.footer__links-rapidos {
+    div.footer__content-logo {
         display: none;
     }
 
     footer div.footer__content {
         display: flex;
-        justify-content: space-around;        
+        justify-content: space-around;
+        align-items: center;
     }
+div.footer__content-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+div.footer__content-links a {
+font-size: 1.4rem;
+}
+
 }

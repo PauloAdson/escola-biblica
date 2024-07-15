@@ -21,4 +21,8 @@ nav.menu div.menu-links {
     align-items: center;
 }
 
-@media screen and (max-width: 999px) {}
+@media screen and (max-width: 767px) {
+    div.menu-links .btn-header.cadastro {
+        display: none;
+    }
+}
