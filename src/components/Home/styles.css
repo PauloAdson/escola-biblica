@@ -72,9 +72,8 @@ section.visao-geral-curso div.visao-geral-curso__conteudo p.visao-geral-curso__c
     line-height: 3.4rem;
 }
 
-section.visao-geral-curso div.visao-geral-curso__conteudo img.visao-geral-curso__conteudo-img {
-    width: 45.1rem;
-    height: 45.1rem;
+img.visao-geral-curso__conteudo-img {
+    width: 40%;
     border-radius: 50%;
 }
 
