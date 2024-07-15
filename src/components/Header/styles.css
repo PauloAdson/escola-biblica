@@ -15,14 +15,13 @@ header nav.menu {
 }
 
 nav.menu div.menu-links {
-    width: 34.4rem;
     gap: 6rem;
     display: flex;
     align-items: center;
 }
 
 @media screen and (max-width: 767px) {
-    div.menu-links .btn-header.cadastro {
+    div.menu-links .btn-header.login {
         display: none;
     }
 }
