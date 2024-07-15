@@ -8,7 +8,9 @@ export class Header extends React.Component {
         return (
             <header>
                 <nav className="menu">
-                    <img src={logo} alt="Logo EBD" />
+                    <a href="./">
+                        <img src={logo} alt="Logo EBD" />
+                    </a>
 
                     <div className="menu-links">
                         <Button estilo="btn-header login" link="./" texto="Entrar" />
