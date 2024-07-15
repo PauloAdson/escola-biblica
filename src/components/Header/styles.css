@@ -5,12 +5,13 @@ header {
 }
 
 header nav.menu {
-    max-width: 1042px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
     margin: 0 auto;
+    max-width: 1042px;
+    padding: 0 1.4rem;
+    height: 100%;
 }
 
 nav.menu div.menu-links {
@@ -19,3 +20,5 @@ nav.menu div.menu-links {
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 999px) {}
