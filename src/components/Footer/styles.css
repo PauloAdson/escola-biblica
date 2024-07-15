@@ -1,6 +1,6 @@
 footer {
     height: 212px;
-    width: 100%;
+    padding: 0 1.4rem;
     background-color: var(--bg-escuro);
     display: flex;
     align-items: center;
@@ -19,6 +19,10 @@ div.footer__content-height {
     justify-content: space-between;
 }
 
+div.footer__content-logo p {
+    font-size: 1.6rem;
+}
+
 div.footer__content-links {
     text-align: center;
     display: flex;
@@ -28,6 +32,11 @@ div.footer__content-links {
 div.footer__content-links p, a, h4 {
     font-size: 1.6rem;
     color: var(--cor-secundaria);
+}
+
+div.footer__content-links a:hover {
+    text-decoration: underline;
+    color: var(--cor-secundaria-escuro);
 }
 
 div.footer__content-links h4 {
@@ -47,4 +56,12 @@ div.footer__copyright {
 div.footer__copyright p, a {
     font-size: 1.6rem;
     color: var(--cor-secundaria);
+}
+
+div.footer__copyright a {
+    text-decoration: underline;
+}
+
+div.footer__copyright a:hover {
+    opacity: 0.9;
 }

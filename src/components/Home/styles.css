@@ -51,6 +51,7 @@ main section.main-inicio p {
 
 section.visao-geral-curso {
     max-width: 1042px;
+    padding: 0 1.4rem;
     margin: 0 auto 6.4rem auto;
 }
 
@@ -80,6 +81,7 @@ section.visao-geral-curso div.visao-geral-curso__conteudo img.visao-geral-curso_
 /* section duvidas */
 section.duvidas {
     max-width: 840px;
+    padding: 0 1.4rem;
     margin: 0 auto 6.4rem auto;
 }
 
