@@ -18,7 +18,7 @@ export class Footer extends React.Component {
                         </div>
                         <div className="footer__links">
                             <h4 className="footer__links-titulo">Links Rápidos</h4>
-                            <a href="">Voltar ao topo</a>
+                            <a href="#inicio">Voltar ao início</a>
                             <a href="">Dúvidas</a>
                         </div>
                         <div className="footer__links">
