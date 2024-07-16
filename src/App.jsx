@@ -21,7 +21,13 @@ function App() {
               <Cadastro />
             </>
           } />
-          <Route path='*' element={<Home />} />
+          <Route path='*' element={
+            <>
+              <Header />
+              <Home />
+              <Footer />
+            </>
+          } />
         </Routes>
       </BrowserRouter>
     </>
