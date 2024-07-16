@@ -82,17 +82,16 @@ section.duvidas {
     margin: 0 auto 6.4rem auto;
 }
 
-section.duvidas div.container-duvidas__sanfona {
+div.container-duvidas__sanfona {
     cursor: pointer;
     margin-bottom: 5rem;
 }
 
-section.duvidas div.container-duvidas__sanfona.active {
-    cursor: pointer;
+div.container-duvidas__sanfona.active {
     margin-bottom: 0;
 }
 
-section.duvidas div.container-duvidas__sanfona div.duvidas__sanfona {
+div.container-duvidas__sanfona div.duvidas__sanfona {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -153,6 +152,13 @@ section.duvidas a.btn-destaque {
         display: none;
     }
 
+    div.container-duvidas__sanfona {
+        margin-bottom: 3rem;
+    }
+
+    div.container-duvidas__sanfona div.duvidas__sanfona {
+        height: 4rem;
+    }
 
     span.duvidas__sanfona-numero {
         font-size: 2.6rem;
