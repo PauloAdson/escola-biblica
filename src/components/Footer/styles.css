@@ -40,10 +40,10 @@ div.footer__links p {
 
 div.footer__links a {
     color: var(--cor-secundaria);
+    text-decoration: underline;
 }
 
 div.footer__links a:hover {
-    text-decoration: underline;
     color: var(--cor-secundaria-acao);
 }
 
