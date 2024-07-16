@@ -10,7 +10,9 @@ export class Footer extends React.Component {
                     <div className="footer__container">
 
                         <div className="footer__logo">
-                            <img src={logo} alt="Logo EBD" />
+                            <a href="./">
+                                <img src={logo} alt="Logo EBD" />
+                            </a>
                             <p>
                                 Os céus e a terra passarão, mas as<br />
                                 minhas palavras jamais passarão.
