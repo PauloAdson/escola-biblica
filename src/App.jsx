@@ -18,9 +18,10 @@ function App() {
           } />
           <Route path='/cadastro' element={
             <>
-              <Cadastro/>
+              <Cadastro />
             </>
           } />
+          <Route path='*' element={<Home />} />
         </Routes>
       </BrowserRouter>
     </>
