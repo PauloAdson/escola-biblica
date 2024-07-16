@@ -59,11 +59,22 @@ div.copyright p, a {
     color: var(--cor-secundaria);
 }
 
-div.copyright p, a {
-    color: var(--cor-secundaria);
+div.copyright a {
+    text-decoration: underline;
 }
 
 div.copyright a:hover {
     color: var(--cor-secundaria-acao);
-    text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        height: 390px;
+    }
+
+    div.footer__container {
+        height: 80%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
