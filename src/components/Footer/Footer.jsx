@@ -25,13 +25,13 @@ export class Footer extends React.Component {
                         </div>
                         <div className="footer__links">
                             <h4 className="footer__links-titulo">Contatos</h4>
-                            <p>WhatsApp: <a href="https://wa.me/5562995132226">(62)99513-2226</a></p>
+                            <p>WhatsApp: <a href="https://wa.me/5562995132226" target="_blank">(62)99513-2226</a></p>
                             <p>E-mail: <a href="mailto:paulo.alves200581@gmail.com">paulo.alves200581@gmail.com</a></p>
                         </div>
                     </div>
                 </footer>
                 <div className="copyright">
-                    <p>Desenvolvido por <a href="https://portfolio-pauloadson.vercel.app/">Paulo Adson</a></p>
+                    <p>Desenvolvido por <a href="https://portfolio-pauloadson.vercel.app/" target="_blank">Paulo Adson</a></p>
                 </div>
             </>
         );
